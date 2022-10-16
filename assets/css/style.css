@@ -628,17 +628,40 @@ input {
 	height: 46px;
 	margin-bottom: 25px;
 	padding: 12px;
-}
-
-.name__input {
+	border: 1px solid #e5e5e5;
+	
+	font-size: 14px;
 	
 }
 
-.subject__input {
-	
+input::placeholder {
+	color: #e5e5e5;
+	font-weight: 300;
+}
+
+input:focus {
+	outline: 0;
+	border-color: #95e1d3;
 }
 
 .message__input {
 	height: 200px;
 	padding: 0 0 150px 12px;
+}
+
+.contact__btn {
+	cursor: pointer;
+	padding: 14px 40px;
+	border: 1px solid #00e0d0;
+	background-color: white;
+
+	color: #00e0d0;
+	text-transform: uppercase;
+	font-family: 'Hammersmith One', sans-serif;
+	font-size: 16px;
+}
+
+.contact__btn:hover {
+	background-color: black;
+	color: white;
 }
