@@ -608,10 +608,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .contact__news {
 	flex: 1 1 0;
+	padding-top: 10px;
 }
 
 .clients__contact {
 	flex: 1 1 0;
+	padding-left: 100px;
 }
 
 .contact__text {
@@ -664,4 +666,210 @@ input:focus {
 .contact__btn:hover {
 	background-color: black;
 	color: white;
+}
+
+
+.logo__contact--text {
+	font-size: 22px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+.logo__contact {
+	display: flex;
+	align-items: center;
+	
+}
+
+.right__logo {
+	width: 50%;
+
+}
+
+.left__logo {
+	width: 50%;
+	padding-left: 20px;
+}
+
+.contsct__img {
+	padding-top: 45px;
+}
+
+/*footer*/
+
+.footer {
+	background: url(../images/footerIntro.jpg) no-repeat center;
+	background-size: cover;
+
+
+	height: 400px;
+}
+
+.footer__items {
+	display: flex;
+	padding-top: 65px;
+}
+
+.footer__left {
+	flex: 1 1 0;
+
+}
+
+.footer__center {
+	flex: 1 1 0;
+	color: white;
+}
+
+.footer__right {
+	flex: 1 1 0;
+}
+
+.position__footer--left {
+	display: flex;
+	align-items: center;
+}
+
+.footer__left--text {
+	font-size: 30px;
+	font-weight: 100;
+	color: #306d91;
+	padding-left: 10px;
+
+}
+
+.footer__left--p {
+	font-size: 14px;
+	font-weight: 300;
+	color: white;
+}
+
+.footer__nav {
+	padding-top: 70px;
+}
+
+.footer__nav__btn {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+
+	margin-right: 40px;
+}
+
+.footer__nav__btn:last-child {
+	margin-right: 0;
+}
+
+.footer__nav__btn:hover {
+	color: black;
+}
+
+
+.footer__center--text {
+	font-size: 15px;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+
+.footer__geo {
+	display: flex;
+	padding-top: 35px;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+
+
+.icon__geo {
+	text-decoration: none;
+	
+
+}
+
+.icon__geo i {
+	color: white;
+	padding-right: 15px;
+	font-size: 15px;
+}
+
+.geo__text {
+	padding-left: 15px;
+}
+
+.footer__number {
+	padding-top: 20px;
+}
+
+.icon__phone {
+	text-decoration: none;
+}
+
+.icon__phone i {
+	color: white;
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+.text__right {
+	font-size: 15px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 35px;
+	padding-left: 10px;
+}
+
+.form__last {
+	padding-left: 10px;
+}
+
+.input__right {
+	width: 210px;
+	height: 47px;
+	background: none;
+	border: 1px solid #9d97af;
+}
+
+.btn__right {
+	height: 48px;
+	width: 70px;
+	background-color: #a29bb5;
+	border: 1px solid #9d97af;
+}
+
+
+.social {
+	padding-left: 15px;
+	position: relative;
+}
+
+.link__social {
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 50%;
+	padding: 5px 10px;
+	margin-right: 5px;
+}
+
+.link__social i {
+	color: white;
+	font-size: 15px;
+}
+
+.copiright {
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+
+
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 90px;
 }
