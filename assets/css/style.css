@@ -873,3 +873,95 @@ input:focus {
 	margin-top: 70px;
 	margin-left: 90px;
 }
+
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 990px) {
+	
+}
+
+@media (max-width: 770px) {
+	.container {
+		padding: 0 15px;
+	}
+
+	.intro__pre--last {
+		height: 514px;
+	}
+
+	.team__people:last-child {
+		display: none;
+	}
+
+	.contact {
+		display: block;
+	}
+
+	.message__input {
+		height: 46px;
+		padding: 0;
+		padding-left: 15px;
+	}
+
+	.left__logo {
+		padding-left: 39px;
+	}
+
+	.footer__right {
+		display: none;
+	}
+}
+@media (max-width: 575px) {
+	.team__people:nth-last-child(2) {
+		display: none;
+	}
+
+	.nav__link {
+		display: none;
+	}
+
+	.intro__title {
+		font-size: 25px;
+	}
+	
+	.intro__pre--last {
+		height: 566px;
+	}
+
+	.clients__contact {
+		padding-top: 40px;
+		padding-left: 44px;
+	}
+}
+
+@media (max-width: 414px) {
+	.team__people:nth-last-child(3) {
+		display: none;
+	}
+
+	input {
+		width: 367px;
+		height: 34px;
+	}
+
+	.contact__btn {
+		padding: 8px 20px;
+	}
+
+	.clients__contact {
+		padding-top: 40px;
+		padding-left: 0;
+		
+	}
+
+	.expertise__item:last-child {
+		display: none;
+
+	}
+
+	.intro__pre--last {
+		height: 620px;
+	}
+}
