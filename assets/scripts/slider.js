@@ -27,7 +27,7 @@ wrapper.innerHTML = `<div class="slider__people"> <img class = "slider__imges"
 
 
 
-buttonNext.onclick = () => {
+const btnN = buttonNext.onclick = () => {
 	
 	if (i < images.length - 1){
 		i++;
@@ -107,3 +107,5 @@ buttonPrev.onclick = () => {
 					src=${images[c]} width = "45"> </div> <div class="slider__people"> <img class = "slider__imges" 
 					src=${images[d]} width = "45"> </div>`
 };
+
+
